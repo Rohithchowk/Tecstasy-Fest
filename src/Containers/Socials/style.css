@@ -1,0 +1,120 @@
+
+  .skill__content_social
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:80px ;
+    width: 95%;
+    margin-left:10px ;
+}
+.skill__content_social_innerContent
+  {
+      width: 350px;
+      height: 350px;
+      background:radial-gradient(180px,var(--yellow-theme-main-color),transparent 90%);
+      position: relative;
+      border-radius: 50%;
+      border: 1.5px solid var(--yellow-theme-main-color);
+      animation: connectRotation 36s linear 1s infinite;
+  }
+  .skill__content_social_innerContent div:nth-child(1)
+  {
+      position: absolute;
+      top: 12%;
+      left: 85%;
+  }
+  .skill__content_social_innerContent div:nth-child(2)
+  {
+      position: absolute;
+      right: -5%;
+      top: 55.5%;
+      
+  } 
+  .skill__content_social_innerContent div:nth-child(3)
+  {
+      position: absolute;
+      bottom: -10%;
+      left: 45%;
+      
+      
+  } 
+  .skill__content_social_innerContent div:nth-child(4)
+  {
+      position: absolute;
+      left: -8%;
+      top: 49%;
+  } 
+  .skill__content_social_innerContent div:nth-child(5)
+  {
+      position: absolute;
+      left: 42%;
+      top: -25%;
+  } 
+  .skill__content_social_innerContent div:nth-child(6)
+  {
+      position: absolute;
+      left: -2%;
+      top: -2%;
+  } 
+  
+  @keyframes connectRotation {
+      100% {
+          transform: rotate(360deg);
+      }
+  }
+  @media only screen and (max-width:768px)
+  {
+     
+      
+      
+      .skill__content_social_innerContent
+      {
+        margin-right:30px ;
+          width: 300px;
+          height: 300px;
+          background:radial-gradient(180px,var(--yellow-theme-main-color),transparent 80%);
+      }
+      .skill__content_social_innerContent div:nth-child(1)
+      {
+          position: absolute;
+          top: 18%;
+          left: 90%;
+      }
+      .skill__content_social_innerContent div:nth-child(2)
+      {
+          position: absolute;
+          right: -6%;
+          top: 55%;
+          
+      } 
+      .skill__content_social_innerContent div:nth-child(3)
+      {
+          position: absolute;
+          bottom: -12%;
+          left: 40%;   
+      } 
+      .skill__content_social_innerContent div:nth-child(4)
+      {
+          position: absolute;
+          top: 47%;
+          left: -10%;   
+      } 
+      .skill__content_social_innerContent div:nth-child(5)
+      {
+          position: absolute;
+          top: -30%;
+          left: 40%;   
+      }
+      .skill__content_social_innerContent div:nth-child(6)
+      {
+          position: absolute;
+          top: 1%;
+          left: -8%;   
+      } 
+      .skill__content_social
+    {
+        width: 100%;
+        margin-top:150px;
+    }
+  }
